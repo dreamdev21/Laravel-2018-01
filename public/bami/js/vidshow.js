@@ -1,0 +1,1 @@
+function RenderNavbar(){var n=0;$("div.navbar-fixed-top").children().each(function(){n+=$(this).outerHeight()}),$("div.navbar-fixed-top + div").css("padding-bottom",n)}function renderObj(n){n(),$(window).resize(n)}$(function(){renderObj(RenderNavbar)});

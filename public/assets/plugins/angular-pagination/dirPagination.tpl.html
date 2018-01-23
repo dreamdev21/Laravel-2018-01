@@ -1,0 +1,7 @@
+<div class="pagination" ng-if="1 < pages.length || !autoHide">
+
+    <a class="carousel-control left pagination" href="#carouselinvitefriends" ng-if="directionLinks" ng-class="{ disabled : pagination.current == 1 }" ng-click="setCurrent(pagination.current - 1)"></a>
+
+    <a class="carousel-control right pagination" href="#carouselinvitefriends" ng-if="directionLinks" ng-class="{ disabled : pagination.current == pagination.last }" ng-click="setCurrent(pagination.current + 1)"></a>
+
+</div>

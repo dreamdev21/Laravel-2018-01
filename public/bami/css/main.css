@@ -1,0 +1,197 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+body {
+	background-color: #f2f2f2;
+	/*font-family: "Lato";*/
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444444;
+	margin-top: 75px;
+}
+
+/* Links */
+a {
+	color: #356635;
+	word-wrap: break-word;
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:before, a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.navbar {
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.06);
+	border: none;
+	font-family: Arial;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #575757;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #398439;
+}
+#hello {
+	padding: 70px 0;
+	text-align: center;
+}
+#hello h1 {
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: #444;
+	text-shadow: 1px 1px 0 #fff;
+	font-weight: 600;
+}
+#hello p {
+	font-size: 26px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0 #fff;
+	margin-bottom: 30px;
+}
+.navbar-nav > li > a.buy {
+	padding: 8px 15px;
+}
+.buy span {
+	background-color: #5CB85C;
+	color: #fff;
+	padding: 7px 10px;
+	display: block;
+	border-radius: 4px;
+}
+.buy:hover span
+{
+	background-color:#49A344;
+}
+hr {
+	border-bottom: 1px solid #fefefe;
+	border-top: 1px solid #ccc;
+	margin: 30px 0;
+}
+
+.wight-box {
+	background: #fff;
+	padding: 25px;
+}
+
+.sp-title {
+	text-align: left;
+	padding: 20px 10px 0px 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+.sp-title h1 {
+	font-size: 40px;
+	font-weight: 300;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.sp-title p {
+	font-size: 25px;
+	text-shadow: 0 1px 0 rgba(255,255,255,.9);
+}
+.ptb-45 {
+	padding: 45px 0;
+}
+
+.footer {
+	padding: 20px 10px;
+	text-align: center;
+	color: #999;
+}
+.footer a {
+	color: #999;
+}
+
+.section-header {
+	padding: 100px 10px;
+	text-align: center;
+	color: #fff;
+	margin-top: 50px;
+}
+.section-header p {
+	font-size: 16px;
+}
+.section-header h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: Open Sans,​Arial,​Helvetica,​ sans-serif;
+	font-weight: 700;
+}
+
+.features-carousel .item {
+	text-align: center;
+	background-color: #fff;
+	padding: 30px 15px;
+	border-radius: 3px;
+	margin: 5px;
+}
+.features-carousel .item i {
+	font-size: 40px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #4CAE4C;
+	color: #fff;
+	border-radius: 50%;
+}
+.features-carousel .util-page span {
+	height: 6px;
+	width: 6px;
+	border-radius: 3px;
+	margin: 5px 2px;
+}
+.features-carousel .util-page.active-page span {
+	background-color: #555555;
+	width: 25px;
+}
+.moredemo{
+	background-color:#fff;
+	padding:50px 10px;
+	text-align: center;
+	display:block;
+	font-size:40px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color:#333;
+}
+.moredemo:hover
+{
+	background-color:#469C41;
+	color:#fff;
+}
+.bg1
+{
+	background:#666;
+}
+.no-touch .bg1
+{
+	background:url('../images/bg1.jpg') center center fixed #666;
+}
+.table tr td:first-child,.table a
+{
+	color:#4CAE4C;
+}
+.table
+{
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.9);
+} 
